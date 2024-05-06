@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite">
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <parameter name="headless" value="false" />
+        <parameter name="Usernam" value="" />
+        <parameter name="Passwor" value="" />
+        <classes>
+            <class name="ui.steps.mobile.MobileSteps" />
+        </classes>
+    </test>
+</suite>
